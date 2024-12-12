@@ -1,0 +1,44 @@
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #f4f4f4;
+    margin: auto;
+    padding-bottom: 100px;
+}
+
+.navbar {
+    background-color: #0077b6;
+}
+
+.navbar a {
+    color: #fff;
+}
+
+.hidden-map {
+    display: none;
+}
+
+.btn-map {
+    background-color: #0096c7;
+    color: white;
+}
+
+#map {
+    height: 400px;
+    width: 100%;
+    z-index: 0;
+    pointer-events: none; 
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #0077b6;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+img {
+    height: 300px;
+}
